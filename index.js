@@ -117,6 +117,7 @@ if (str === arrStr) {
 } else {
   console.log("ist kein Palindrome");
 }
+//8.1 option 2
 const str1 = "tarrattarrat";
 const arrStr1 = str1.split("").reverse().join("");
 console.log(str1 === arrStr1 ? "ist Palindrom" : "ist kein Palindrome");
